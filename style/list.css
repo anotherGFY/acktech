@@ -1,0 +1,88 @@
+
+
+
+.list-img{float: right;    padding: 0 0 0 5%;}
+li.animate-box {
+    margin: 0;
+    padding: 3% 0;
+    border-bottom: 1px #f2f2f2 solid;
+}
+.list-title{padding: 0;margin: 1% 0 0 0;}
+.list-title a{text-decoration: none;
+    outline: none;color: #464646;}
+.list-title h3{color: #000000;
+    text-align: left;
+    padding: 0 0 10px 0;
+    font-size: 24px;}
+
+.list-txt span {
+    color: #bebebe;
+}
+
+.list-txt p {
+    line-height: 25px;
+    color: #666666;
+    margin: 3% 0 1% 0;
+        font-size: 16px;
+}
+
+span a {
+    color: #bebebe;
+        font-size: 12px;
+}
+
+.listmore {padding: 10% 0;
+    text-align: center;}
+
+.btn{position: relative;
+    padding: 6px 18px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #787878;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;}    
+
+@media screen and (min-width:992px){
+    .enterbox{float: left; height:10px;border:none;border-bottom:1px solid #cacaca;width: 45%}
+    .new-title{float: left;text-align: center;width: 10%;font-size: 15px;color: #a0a0a0;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .enterbox{float: left; height:10px;border:none;border-bottom:1px solid #cacaca;width: 43%}
+    .new-title{float: left;text-align: center;width: 14%;font-size: 15px;color: #a0a0a0;}
+}
+
+
+@media screen and (min-width: 478px) and (max-width: 767px) {
+    .enterbox{float: left; height:10px;border:none;border-bottom:1px solid #cacaca;width: 43%}
+    .new-title{float: left;text-align: center;width: 14%;font-size: 15px;color: #a0a0a0;}
+
+    .list-title h3{
+    margin: 8% 0 1% 0;
+    font-size: 18px;}
+    .list-txt p {
+        margin: 6% 0 6% 0;
+        font-size: 14px;}
+    li.animate-box {
+    margin: 0;
+    padding: 6% 0;}
+
+}
+
+@media screen and (max-width:477px){
+    .enterbox{float: left; height:10px;border:none;border-bottom:1px solid #cacaca;width: 35%}
+    .new-title{float: left;text-align: center;width: 30%;font-size: 15px;color: #a0a0a0;}
+
+    .list-title h3{
+    margin: 8% 0 1% 0;
+    font-size: 16px;}
+    .list-txt p {
+        margin: 6% 0 6% 0;
+        font-size: 14px;}
+    li.animate-box {
+    margin: 0;
+    padding: 6% 0;}
+
+}

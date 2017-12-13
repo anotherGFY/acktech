@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+
+    <title>ACK艾斯凯官网</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Bootstrap -->
+    <link href="./style/bootstrap.min.css" rel="stylesheet">
+    <link href="./style/animate.css" rel="stylesheet">
+    <link href="./style/list.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <link href="./style/top.css" type="text/css" rel="stylesheet">
+    <link href="./style/style.css" type="text/css" rel="stylesheet">
+
+    </script><script src="./js/jquery.js"></script>
+    <script src="./js/fastclick.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/js.js"></script>
+    
+    <script type="text/javascript">
+        $(function(){
+            $('.actbtn').click(function(){
+                alert("维护升级中");
+                return false;
+            })
+            $('#myform1').submit(function(e){
+                if($('#pkeyword').val()==''){
+                    alert('关键词不可为空');return false;
+                }
+            })
+            $('#myform').submit(function(e){
+                if($('#keyword').val()==''){
+                    alert('关键词不可为空');return false;
+                }
+            })
+        })
+    </script>
+
+    </head>
+
+    <body>﻿
+    <!--[if IE 8]>
+    <div class="alert alert-warning text-center" style="margin-bottom:0;margin-top: 50px;">
+      <p>你的浏览器不支持一些新特性，请升级你的浏览器至<a href="http://www.firefox.com/">火狐浏览器</a>或<a href="http://browsehappy.com/">Chrome</a>。
+      </p>
+      <p>2016年了，IE8很老了...</p>
+    </div>
+    <![endif]-->
+
+    <!--[if lt IE 8]>
+    <div class="alert alert-danger text-center" style="margin-bottom:0;margin-top: 50px;">
+      <p>你的浏览器不支持一些新特性，请升级你的浏览器至<a href="http://www.firefox.com/">火狐浏览器</a>或<a href="http://browsehappy.com/">Chrome</a>。
+      </p>
+      <p>2017年了，IE7及以下都很老了...</p>
+    </div>
+    <![endif]-->
+
+
+
+<!-- start navigation -->
+    <div class="header">
+        <div class="header-wrap ">
+            <div class="wrapper lrp clearfix">
+                <h1 class="logo"><a href="http://www.lifesense.com/"><img src="./images/logo.png" alt="智能手环"></a></h1>
+                <a class="menubtn" href="javascript:">&nbsp;</a>
+                <a class="searchbtn" href="javascript:"></a>
+                <ul class="nav">
+                   
+                    
+                 
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">资讯</a></li>
+                    <li>
+                        <a href="http://www.lifesense.com/s-list/">产品</a>
+                        <div class="sub" style="overflow: hidden; display: none; height: 150px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                            <div class="sub-wrap clearfix">
+                            <a href="#"><img src="./images/daianzicheng.png" alt="电子秤系列"></a>
+                            <a href="#"><img src="./images/zuyu.png" alt="足浴系列"></a>
+                            <a href="#"><img src="./images/anmoyi.png" alt="按摩系列"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">服务支持</a></li>
+                    <li><a href="#">关于艾斯凯</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="searchbox spe">
+            <form action="http://www.lifesense.com/Common/search" method="post" id="myform">
+                <div class="search">
+                    <input class="search-txt search-txt-pc" type="text" id="keyword" name="keyword" placeholder="例如：足浴盆">
+                    <input class="search-btn" type="submit" value="">
+                </div>
+            </form>
+           
+    </div>
+
+
+
+
+    <div class="menu" style="display: none;">
+            <ul class="menu-list" style="display: block;">
+                <li>
+                    <h5><a href="#">首页</a></h5>
+                </li>
+                <li>
+                    <h5><a href="#">资讯</a></h5>
+                </li>
+                
+                <li>
+                    <h5><a href="#">产品</a></h5>
+                </li>
+                <li>
+                    <h5><a href="#">服务支持</a></h5>
+                </li>
+                <li><h5><a href="#">关于艾斯凯</a></h5></li>
+            </ul>
+            <form action="http://www.lifesense.com/Common/search" class="clearfix search" method="post" id="myform1">
+                <input class="search-txt search-txt-ph" type="text" id="pkeyword" name="keyword" placeholder="例如：足浴盆">
+                <input class="search-btn" type="submit" value="">
+            </form>
+           
+            <div class="menu-list-oc" style="display: none;"></div>
+    </div>
+
+
+
+<!-- end navigation -->
+
+
+
+
+<!--  start main  -->
+
+ 
+    
+        <div class="wrapper">
+                  <div class="row">
+                      <div  class="enterbox col-xs-4 col-sm-4 col-md-5"></div><span class="new-title col-xs-4 col-sm-4 col-md-2">近期资讯</span><div class="enterbox col-xs-4 col-sm-4 col-md-5"></div>
+
+
+        <div class="container">
+                            <div class="col-md-12 fadeInUp animated animated">
+
+                                        <ul class="list">
+                                          <li class="animate-box col-lg-12 col-sm-12 col-xs-12 col-md-12">
+                                              <div class="list-img col-xs-12 col-sm-4 col-md-4">
+                                                  <img src="./images/listimg1.jpg">
+                                              </div>
+                                              <div class="list-txt col-xs-12 col-sm-8 col-md-8">
+                                                  <div class="list-title">
+                                                      <a href="">
+                                                          <h3>置身“太空”艾斯凯呈现极致按摩体验</h3>
+                                                      </a>
+                                                  </div>
+                                                  <span>2017-06-02 09:50:47</span>
+                                                  <p>生活愈加繁忙，压力愈加增大，置身“太空”艾斯凯呈现极致按摩体验。生活愈加繁忙，压力愈加增大，置身“太空”艾斯凯呈现极致按摩体验。生活愈加繁忙，压力愈加增大，置身“太空”艾斯凯呈现极致按摩体验。生活愈加繁忙，压力愈加增大，置身“太空”艾斯凯呈现极致按摩体验。</p>
+                                                  <span><a href="#">了解更多 &gt;</a></span>
+                                              </div>
+                                          </li>
+                                          <li class="animate-box col-lg-12 col-sm-12 col-xs-12 col-md-12">
+                                              <div class="list-img col-xs-12 col-sm-4 col-md-4">
+                                                  <img src="./images/listimg2.jpg">
+                                              </div>
+                                              <div class="list-txt col-xs-12 col-sm-8 col-md-8">
+                                                  <div class="list-title">
+                                                      <a href="">
+                                                          <h3>置身“太空”艾斯凯呈现极致按摩体验</h3>
+                                                      </a>
+                                                  </div>
+                                                  <span>2017-06-02 09:50:47</span>
+                                                  <p>生活愈加繁忙，压力愈加增大，置身“太空”艾斯凯呈现极致按摩体验。生活愈加繁忙，压力愈加增大，置身“太空”艾斯凯呈现极致按摩体验。生活愈加繁忙，压力愈加增大，置身“太空”艾斯凯呈现极致按摩体验。生活愈加繁忙，压力愈加增大，置身“太空”艾斯凯呈现极致按摩体验。</p>
+                                                  <span><a href="#">了解更多 &gt;</a></span>
+                                              </div>
+                                          </li>
+
+                                        </ul>
+                              </div>        
+
+                  </div>
+
+
+
+                  <div class="row">
+                      <div class="listmore col-md-12 fadeInUp animated">
+                          <button class="btn btn-large" type="button">更多往期</button>
+                      </div>
+                  </div>
+
+              </div>
+
+
+
+
+<!--  end main  -->
+ 
+<!--  start foooter  -->
+
+<div class="footer f-sj">
+        <div class="footer-top">
+            <div class="wrapper  paddingbox">
+                <div class="clearfix lrp">
+      
+                    <dl class="webmap clearfix">
+                        <dt><span>+</span><a href="#">关于艾斯凯</a></dt>
+                        <dd><a href="#">品牌简介</a></dd> 
+                        <dd><a href="#">品牌产品</a></dd> 
+                        <dd><a href="#">服务与支持</a></dd> 
+                        <dd><a href="#">新闻动态</a></dd>                    
+                    </dl>
+
+                    <dl class="webmap clearfix">
+                        <dt><span>+</span><a href="http://www.lifesense.com/service/find/">网络店铺</a></dt>
+                        <dd><a href="http://www.lifesense.com/service/find/">天猫旗舰店</a></dd>
+                        <dd><a href="http://www.lifesense.com/service/question/10">京东旗舰店</a></dd>              
+                    </dl>
+                    <dl class="webmap clearfix">
+                        <dt><span>+</span><a href="http://www.lifesense.com/about/develop/">关注艾斯凯</a></dt>
+                        <dd><a href="http://www.lifesense.com/about/develop/">新浪微博</a></dd>
+                        <dd><a href="http://www.lifesense.com/about/introduce/">官方微信</a></dd>
+                    </dl>
+                    
+                    <div class="contacttip">
+                        <p class="contacttip-ph">400-606-7255</p>
+                        <p class="contacttip-time">8：00-20：00(小艾服务热线)</p>
+
+                    </div>
+                    <div class="contacttip">
+                        <img style="width:80%;" src="./images/adderweima.png">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="paddingbox  wrapper">
+                <div class="clearfix lrp">
+                    <div class="copyright">Copyright © 2010 - 2016 Lifesense 粤ICP备11060463号-1 </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+<!--  end foooter  -->
+
+
+<!--  start totop  -->
+
+        <div id="goTopBtn"></div>
+        <script type="text/javascript" src="jquery1.3.2.js"></script>
+        <script type="text/javascript">
+         $(window).scroll(function(){
+           var sc=$(window).scrollTop();
+           var rwidth=$(window).width()
+           if(sc>0){
+            $("#goTopBtn").css("display","block");
+            $("#goTopBtn").css("left",(rwidth-55)+"px")
+           }else{
+           $("#goTopBtn").css("display","none");
+           }
+         })
+         $("#goTopBtn").click(function(){
+           var sc=$(window).scrollTop();
+           $('body,html').animate({scrollTop:0},500);
+         })
+        </script>
+
+<!--  end totop  -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+ </body>
+</html>

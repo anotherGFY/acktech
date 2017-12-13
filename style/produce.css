@@ -1,0 +1,122 @@
+
+.produceimgA1{
+    padding: 3px 5px 2px 0;
+}
+.produceimgA2{
+    padding: 3px 0 2px 5px;
+}
+
+.produceimgB1{
+    padding: 2px 2px 2px 0;
+}
+.produceimgB2{
+    padding: 2px 2px;
+}
+.produceimgB3{
+    padding: 2px 2px;
+}
+.produceimgB4{
+    padding: 2px 0 2px 2px;
+}
+
+
+@media screen and (min-width:992px){
+    .enterbox{float: left; height:10px;border:none;border-bottom:1px solid #cacaca;width: 40%}
+    .produce-title{float: left;text-align: center;width: 20%;font-size: 15px;color: #a0a0a0;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .enterbox{float: left; height:10px;border:none;border-bottom:1px solid #cacaca;width: 43%}
+    .produce-title{float: left;text-align: center;width: 14%;font-size: 15px;color: #a0a0a0;}
+    .produce-top-img{
+        padding: 10px 0;
+    }
+    .page-s{ width: 80%;
+    margin: 0 10%
+}
+.produceimgA1{
+    padding: 2px 10%;
+}
+.produceimgA2{
+    padding: 2px 10%;
+}
+
+.produceimgB1{
+    padding:0 1px 1px 0;
+}
+.produceimgB2{
+    padding: 0 0 1px 1px;
+}
+.produceimgB3{
+    padding: 0 1px 1px 0;
+}
+.produceimgB4{
+    padding: 0 0 1px 1px;
+}
+}
+
+
+@media screen and (min-width: 478px) and (max-width: 767px) {
+    .enterbox{float: left; height:10px;border:none;border-bottom:1px solid #cacaca;width: 40%}
+    .produce-title{float: left;text-align: center;width: 20%;font-size: 15px;color: #a0a0a0;}
+    .produce-top-img{
+        padding: 10px 0;
+    }
+        .page-s{ width: 90%;
+    margin: 0 5%
+}
+
+.produceimgA1{
+    padding: 2px 5%;
+}
+.produceimgA2{
+    padding: 2px 5%;
+}
+
+.produceimgB1{
+    padding:0 1px 1px 0;
+}
+.produceimgB2{
+    padding: 0 0 1px 1px;
+}
+.produceimgB3{
+    padding: 0 1px 1px 0;
+}
+.produceimgB4{
+    padding: 0 0 1px 1px;
+}
+
+}
+
+@media screen and (max-width:477px){
+    .enterbox{float: left; height:10px;border:none;border-bottom:1px solid #cacaca;width: 32%}
+    .produce-title{float: left;text-align: center;width: 36%;font-size: 15px;color: #a0a0a0;}
+    .produce-top-img{
+        padding: 8px 0;
+    }
+       .page-s{ width: 100%;
+}
+
+.produceimgA1{
+    padding: 2px 0;
+}
+.produceimgA2{
+    padding: 2px 0;
+}
+
+.produceimgB1{
+    padding:0 1px 1px 0;
+}
+.produceimgB2{
+    padding: 0 0 1px 1px;
+}
+.produceimgB3{
+    padding: 0 1px 1px 0;
+}
+.produceimgB4{
+    padding: 0 0 1px 1px;
+}
+
+}
+
